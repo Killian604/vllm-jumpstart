@@ -3,7 +3,6 @@
 """
 import vllm_util
 vllm_host, vllm_port = 'localhost', 8000  # Put your own info here
-vllm_host, vllm_port = '10.0.0.73', 8000  # Put your own info here
 
 model = vllm_util.get_models(vllm_host, vllm_port)[0]  # Fetch first model arbitrarily
 api_uri = vllm_util.create_vllm_chat_uri(vllm_host, vllm_port)
