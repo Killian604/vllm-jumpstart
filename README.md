@@ -1,4 +1,4 @@
-# vVLM Jumpstart
+# vLLM Jumpstart
 
 ## Purpose
 
