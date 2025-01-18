@@ -271,7 +271,7 @@ def http_bot(prompt: str, llm_uri: str, modelname, n=1, max_tokens=500,stream=Tr
     return parse_chat_response_stream(response)
 
 
-# Primary funcs
+# Primary ("porcelain") funcs
 
 def get_models(host: str, port: Union[str, int]):
     """
